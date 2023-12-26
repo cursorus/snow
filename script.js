@@ -6,12 +6,12 @@
     h = canvas.height = innerHeight,
     particles = [],
     properties = {
-        bgColor             : 'rgba(0, 106, 255, 1)',
+        bgColor             : 'rgb(191, 213, 255)',
         particleColor       : 'rgba(255, 255, 255, 255)',
         particleRadius      : 3,
         particleCount       : 100,
-        particleMaxVelocity : 0.5,
-        lineLength          : 150,
+        particleMaxVelocity : 0,
+        lineLength          : 0,
         particleLife        : 6,
     };
 
